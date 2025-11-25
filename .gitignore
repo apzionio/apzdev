@@ -1,0 +1,59 @@
+# Dependencies
+/node_modules
+/.pnp
+.pnp.js
+.yarn/install-state.gz
+
+# Testing
+/coverage
+
+# Next.js
+/.next/
+/out/
+
+# Production
+/build
+
+# Move contracts (private - not for public repo)
+/move/
+
+# Aptos CLI config with private keys
+.aptos/config.yaml
+
+# Keep config-1.yaml (example config)
+!.aptos/config-1.yaml
+
+# Environment files
+.env
+.env*.local
+
+# Debug & logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+
+# Misc
+.DS_Store
+*.pem
+
+# Vercel
+.vercel
+
+# TypeScript
+*.tsbuildinfo
+next-env.d.ts
+
+# Million Lint
+.million
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Documentation - exclude all .md except README.md
+/docs/
+*.md
+!README.md

@@ -1,0 +1,8 @@
+---
+profiles:
+  apzion:
+    network: Testnet
+    private_key: 
+    public_key: 
+    account:
+    rest_url: ""
